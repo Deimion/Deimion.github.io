@@ -23,6 +23,72 @@
     width: 50%;
     font-size: 18px; }
 
+.assist-nav {
+  position: fixed;
+  width: 40px;
+  height: 120px;
+  bottom: 35px;
+  right: 10px; }
+  .assist-nav__list {
+    list-style: none; }
+  .assist-nav__item {
+    font-size: 0;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 2px;
+    border-radius: 10px;
+    background-color: rgba(128, 128, 128, 0.3);
+    cursor: pointer; }
+  .assist-nav--up {
+    background: url("/img/arrow.png");
+    background-size: 50px 49px;
+    height: 49px; }
+  .assist-nav--down {
+    -webkit-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+            transform: rotate(180deg);
+    background: url("/img/arrow.png");
+    background-size: 50px 49px;
+    height: 49px; }
+  .assist-nav--timer {
+    background: url("/img/timer.png");
+    background-size: 50px 50px;
+    z-index: 1000; }
+
+.timer-work {
+  display: none;
+  position: fixed;
+  background-color: #fff;
+  width: 350px;
+  height: 150px;
+  right: 50%;
+  margin-right: -175px;
+  top: 200px; }
+  .timer-work .wrapper {
+    position: relative; }
+  .timer-work__text {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 10px; }
+  .timer-work__input {
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    width: 95%;
+    height: 40px;
+    border-color: coral;
+    border-radius: 10px;
+    margin: 20px auto 0;
+    color: #000;
+    font-weight: bold; }
+  .timer-work--close {
+    position: absolute;
+    background-color: red;
+    top: 3px;
+    right: -18px;
+    width: 15px;
+    height: 15px; }
+
 .index__name {
   width: 100%;
   font-size: 39px;
@@ -86,7 +152,7 @@
   .news-bar__name {
     background-color: #aaa9a0; }
 
-ul, li, p, h1, h2, h3 {
+ul, li, p, h1, h2, h3, button {
   margin: 0;
   padding: 0; }
 
