@@ -56,7 +56,6 @@
     z-index: 1000; }
 
 .timer-work {
-  display: none;
   position: fixed;
   background-color: #fff;
   width: 350px;
@@ -88,6 +87,9 @@
     right: -18px;
     width: 15px;
     height: 15px; }
+  .timer-work--last-date {
+    padding: 10px;
+    font-size: 9px; }
 
 .index__name {
   width: 100%;
@@ -151,6 +153,9 @@
     margin: 5px; }
   .news-bar__name {
     background-color: #aaa9a0; }
+
+.hide-block {
+  display: none; }
 
 ul, li, p, h1, h2, h3, button {
   margin: 0;
